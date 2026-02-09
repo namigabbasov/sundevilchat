@@ -8,10 +8,10 @@ assistant = "assistant"
 
 [main]
 title = "SunDevil Library Chat 🔱"
-logo = "![Kingbot](./app/static/kingbot_icon.png)"
+logo = "![Kingbot](./app/assets/sundevil.png)"
 
 [side]
-title = "[![ASU Library](assets/asu_library_logo.png)](https://lib.asu.edu/)"
+title = "[![ASU Library](./app/assets/asu_library_logo.png)](https://lib.asu.edu/)"
 intro = "SunDevil Library Chat is a workshop demonstration of an AI-powered assistant designed to help users with general questions about Arizona State University (ASU) Library services. This tool is not an official ASU Library service and does not replace librarians or library staff."
 policylink = "https://lib.asu.edu/"
 policylabel = "See SunDevil Library Chat Policy"
