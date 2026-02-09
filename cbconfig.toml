@@ -8,7 +8,7 @@ assistant = "assistant"
 
 [main]
 title = "SunDevil Library Chat 🔱"
-logo = "![Kingbot](./app/assets/sundevil.png)"
+logo = "![Kingbot](./app/static/sundevil.png)"
 
 [side]
 title = "[![ASU Library](./app/assets/asu_library_logo.png)](https://lib.asu.edu/)"
