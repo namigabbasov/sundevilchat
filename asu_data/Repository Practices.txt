@@ -1,0 +1,71 @@
+Repository Practices
+Access
+KEEP Digital Repository is intended to provide open access to the digital materials of the University community, whenever possible.
+
+Access levels are:
+
+All users can access the materials.
+Only users with an active ASURITE ID can access the materials. This is typically reserved for a limited number of materials that are governed by copyright restriction or donor agreements.
+Some materials in the repository are viewable online, but cannot be downloaded. An example is music performances -- this file download restriction is designed to protect the copyright of creators, e.g., composers and arrangers.  
+
+Should it become necessary to amend access to materials in the repository, please contact us.
+
+ASU Library requests that users of KEEP materials include attribution as a matter of good scholarly practice.
+
+Scope
+Materials deposited in the KEEP should be:
+
+Scholarly in nature and intended for use in research or instruction, or constitute an enduring record of administrative, financial, historical, cultural or legal value.
+In the public domain, have documented permission granted by the copyright holder or authored by an ASU faculty, academic professional or student.
+Complete, e.g., an entire document or article and not a “part”, such as an abstract, forward or title page.
+Intended for permanent public access.
+Examples
+
+audiovisual materials, time-based or still
+Barrett, the Honors College undergraduate honors theses
+conference proceedings
+creative materials (e.g., audio recordings from School of Music performances and Department of Dance recorded videos of performances)
+geospatial, cartographic or map materials
+graduate theses and dissertations
+grey literature
+journals published at ASU
+presentations
+published articles
+supplementary materials, such as descriptive or technical metadata, transcriptions and other assistive materials, and/or collection-derived data
+unpublished, self-published or pre-print material
+working papers and technical reports
+Out of Scope
+
+data sets (please deposit these in the ASU Research Data Repository instead)
+distinctive collections of ASU Library (these can be found in the PRISM Digital Collections Repository)
+materials that are permanently restricted
+collections licensed on a short-term basis
+materials that contain protected information
+materials in a nonstandard format that prevent technical deposit
+Deaccession
+ASU Library strives to ensure the long-term integrity and accessibility of its digital assets. ASU Library reserves the right to deaccession or change access rights for legal or ethical reasons, and to comply with copyright, privacy or access responsibilities.
+
+For questions about materials in the repository, please contact ASU Library.
+
+Preservation
+The ASU Library aims to provide preservation measures that ensure the authenticity, reliability and integrity of digital materials entrusted to its care by providing usable versions for scholarship, research and instruction.
+
+ASU Library may provide greater preservation support for materials submitted in file formats that are open, well documented and widely adopted.
+
+ASU Library conducts the following preservation activities:
+
+assigns persistent identifiers
+regular fixity checks
+format review and migration, when necessary
+retention of the original digital asset
+versioning
+secure storage, backup, and migration
+virus monitoring and repair
+Metadata
+ASU Library promotes standards-based metadata creation and management to provide optimum search, discovery and retrieval of materials in our digital collections.  
+
+Depositors are strongly encouraged to submit descriptive metadata at the time of deposit. ASU Library staff are available to assist.
+ASU Library reserves the right to edit all metadata to conform to international and local standards.
+Metadata is exposed to the World Wide Web and to services and agents including (but not limited to) search engines, web crawlers, repository API clients, the ASU Library catalog and OAI-PMH harvesters.
+Metadata of all repository materials is openly accessible, including when materials are temporarily restricted.
+Metadata in the digital repository is in the public domain and is not protected by copyright.

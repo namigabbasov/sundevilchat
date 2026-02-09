@@ -1,0 +1,23 @@
+Welcome to ASU Library One Search
+ASU Library One Search enables you to find books available in the ASU Library, link to journals online, discover scholarly articles for your research and helps you manage your research.
+
+Sign In to:
+
+Save results in My Favorites
+Request articles and books via Interlibrary Loan (ILL)
+Renew books and other items on loan
+Export citations to Mendeley and more
+View complete search results
+Note: Users must be signed in for some databases to include results.
+Search tips
+In a Basic Search you'll receive results that contain all of your search terms. These may match keywords in a title, author names, subjects, abstract, or other descriptions.
+
+Use the Advanced Search to pre-limit your search to specific fields, material types, or publication dates.
+
+Use the Filters to limit to items available online or physically available in the library. You can also include or exclude particular material types, dates, authors, subjects, or library locations.
+
+The * character can be used as a wildcard in place of one or more characters. [Examples: recycl*, organiz*, wom*n]
+
+Enclosing your search in quotes " " will only return results with an exact match. [Examples: "global warming", "Affordable Care Act", "mutual funds"]
+
+Searches can also be nested in ( ), combined with " " and Boolean operators AND, OR, NOT. [Example: "World War II" AND (sites OR battles) NOT (Normandy OR Pearl Harbor)]
