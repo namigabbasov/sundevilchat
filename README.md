@@ -1,37 +1,94 @@
-# KingbotGPT
-[KingbotGPT](https://libapps.sjsu.edu/kingbot/) is SJSU Library's chatbot. The chatbot is capable of answering questions about the library and its services. It uses a retrieval-augemented generation (RAG) model, and relies on information from the library's website and a local dataset of questions and answers.
+# Sun Devil GPT
+
+**Sun Devil GPT** is a demo library-focused chatbot developed for the **Intro to AI Engineering Open Lab** at Data Science and Analytics Unit, Hayden Library at Arizona State University.  The chatbot is designed to answer questions about library services, resources, and policies using a retrieval-augmented generation (RAG) approach that grounds AI responses in authoritative content.
+
+---
+
+## Overview
+
+Sun Devil GPT demonstrates how large language models can be combined with institutional knowledge to create practical, domain-specific AI assistants. The project serves as a teaching and learning tool for exploring modern AI engineering concepts, including prompt design, RAG pipelines, and deployment in lightweight web environments.
+
+---
 
 ## Architecture
 
-In production, KingbotGPT includes the following components:
-- User Interface:Streamlit
-- Chatbot Control: LlamaIndex
-- Vector Database: ChromaDB
-- Web Scraper: Scrapy
-- Usage Data: MySQL
-- LLM: ChatGPT API
-![kingbot 2025](https://github.com/user-attachments/assets/de0c0d5c-3eb6-478a-a495-6b79bbf8b6b1)
+In a full production deployment, Sun Devil GPT includes the following components:
 
-## Limitations of this distribution
+- **User Interface:** Streamlit  
+- **Chatbot Orchestration:** LlamaIndex  
+- **Vector Database:** ChromaDB  
+- **Web Scraping:** Scrapy  
+- **Usage Analytics:** MySQL  
+- **Large Language Model:** OpenAI ChatGPT API
 
-In packaging this shareable code, we are currently choosing to prioritize the ability to run the shared code immediately on [Streamlit Community Cloud](https://streamlit.io/cloud) or any other Streamlit environment. For this reason, the shared code includes only the user interface, chatbot control, and connection to the LLM. Because both the process for creating the local vector database and the usage statistics are hosted outside of the Streamlit environment, we have omitted them from this distribution of the code. 
+---
 
-For an example of a RAG chatbot where the vector database is generated and stored within the Streamlit environment, consider our ["workshop chatbot"](https://github.com/sjsu-library/chatbot-workshop) which we use when teaching RAG chatbot development within the library.
+## Limitations of This Distribution
 
-If you are interested in the other components of KingbotGPT, please reach out! We are interested in sharing this code with other libraries in the format that would be most useful to you!
+This repository contains a simplified, shareable version of Sun Devil GPT intended for demonstration and instructional use.
+To enable fast deployment on Streamlit Community Cloud and similar environments, this distribution includes only:
+
+- The Streamlit user interface  
+- Chatbot control logic  
+- Connection to the OpenAI API  
+
+The following production components are not included in this repository:
+
+- Vector database generation and ingestion workflows  
+- Web scraping pipelines  
+- Usage analytics and logging infrastructure  
+
+These components are managed outside the Streamlit environment in the full system.
+
+---
 
 ## Quick Start
-To make your own copy of KingbotGPT, you will need:
-- A GitHub account
-- A [Streamlit Community Cloud](https://streamlit.io/cloud) account
-- An OpenAI API key
-  
-### Quick Start Steps
-1. Fork this repository on GitHub
-2. [Deploy your app on Streamlit Community Cloud](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app). For the main file path, enter "llamainchatbot.py".
-3. Before running your app, add your OpenAI API key to the app's [secrets file](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management). The app expects the key as "openai.key". You can manage secrects in Streamlit's user interface. DO NOT create a secrets.toml file in your forked repository!
 
-That's it! From there, you can modify the chatbot prompt and other elements in the file llamainchatbot.py.
+To deploy your own copy of Sun Devil GPT, you will need:
 
-## More Information
-You can read about the development of KingbotGPT in [Library-Led AI: Building a Library Chatbot as Service and Strategy](https://www.ala.org/sites/default/files/2025-03/Library-LedAI.pdf) in the ACRL 2025 Conference Proceedings. Please feel free to contact the Kingbot team at [kingbot@sjsu.edu](mailto:kingbot@sjsu.edu).
+- A GitHub account  
+- A Streamlit Community Cloud account  
+- An OpenAI API key  
+
+### Deployment Steps
+
+1. Fork this repository on GitHub  
+2. Deploy the app on Streamlit Community Cloud  
+   - Set the **main file path** to:
+     ```
+     llamainchatbot.py
+     ```
+3. Before running the app, add your OpenAI API key to Streamlit **Secrets**
+   - The app expects the key under:
+     ```
+     openai.key
+     ```
+   - Manage secrets through Streamlit’s web interface  
+   - **Do not** commit a `secrets.toml` file to your repository  
+
+Once deployed, you can customize the chatbot’s prompt, behavior, and interface by editing `llamainchatbot.py`.
+
+---
+
+## Educational Use
+
+This project was developed as a **demonstration for the Intro to AI Engineering Open Lab**.  
+It is intended for instructional, exploratory, and prototyping purposes rather than full production deployment.
+
+Students and instructors are encouraged to extend the project by:
+
+- Adding their own document sources  
+- Implementing a local vector database  
+- Experimenting with prompt engineering and retrieval strategies  
+
+---
+
+## Acknowledgments
+
+Sun Devil GPT is adapted from **KingbotGPT**, developed by the San José State University Library.
+
+More information on the original project can be found in:
+
+*Library-Led AI: Building a Library Chatbot as Service and Strategy*  
+ACRL 2025 Conference Proceedings
+
